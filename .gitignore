@@ -8,6 +8,8 @@
 *.lof
 *.lot
 *.pdf
+!qr-code.pdf
+!qr-code-vcard.pdf
 
 
 # bibliography related
