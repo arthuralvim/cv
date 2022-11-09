@@ -17,7 +17,7 @@
 
 \usepackage{moresize}
 \usepackage{fontawesome}
-
+\usepackage{array}
 % use to vertically center content
 % credits to: http://tex.stackexchange.com/questions/7219/how-to-vertically-center-two-images-next-to-each-other
 \newcommand{\vcenteredinclude}[1]{\begingroup
@@ -125,33 +125,41 @@
         \input{./09-contact}
 
         \input{./06-languages}
-        \vfill\null
-        \input{./13-qrcode-vcard}
+
+        \input{./05-skills}
 
         \newpage
-        \input{./05-skills}
 
         \input{./12-events}
 
         \input{./08-references}
 
         \input{./11-hobbies}
+
         \vfill\null
-        \input{./10-qrcode}
+        \input{./13-qrcode-vcard}
 
         \newpage
+
         \input{./07-publications}
         \vfill\null
-        \input{./10-qrcode}
+        \input{./13-qrcode-vcard}
+
+        \newpage
+
+        \vfill\null
+        \input{./13-qrcode-vcard}
 
     \end{leftcolumn}
 
     \begin{rightcolumn}
 
         \input{./01-summary}
+
         \input{./02-work}
-        \newpage
+
         \input{./03-education}
+
         \input{./04-courses}
         % hotfixes to create fake-space to ensure the whole height is used
         \mbox{}

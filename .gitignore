@@ -6,6 +6,8 @@
 *.out
 *.toc
 *.lof
+*.fls
+*.fdb_latexmk
 *.lot
 *.pdf
 !qr-code.pdf

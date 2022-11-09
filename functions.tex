@@ -64,21 +64,20 @@
         \fill [lightcol] (0,0) rectangle (1\mpwidth, 0.15);
         \fill [maincol] (0,0) rectangle (#3\mpwidth, 0.15);
     \end{tikzpicture}%
+    \vspace{1pt}
 }
 
 \newcommand{\cvlanguage}[3] {
-    \begin{tabular*}{1\mpwidth}{p{0.72\mpwidth}  r}
-        \textcolor{black}{\textbf{#1}}
+    \begin{tabular*}{1\mpwidth}{p{0.40\mpwidth} >{\raggedleft}p{0.56\mpwidth}r}
+        \textcolor{black}{\textbf{#1}} & \textcolor{maincol}{#2}
     \end{tabular*}%
 
-    \begin{tabular*}{1\mpwidth}{p{0.72\mpwidth}  r}
-        \textcolor{maincol}{#2}
-    \end{tabular*}%
-
+    \hspace{4pt}
     \begin{tikzpicture}[scale=1,rounded corners=2pt,very thin]
         \fill [lightcol] (0,0) rectangle (1\mpwidth, 0.15);
         \fill [maincol] (0,0) rectangle (#3\mpwidth, 0.15);
     \end{tikzpicture}%
+    \vspace{1pt}
 }
 
 
