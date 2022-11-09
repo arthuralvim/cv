@@ -49,6 +49,11 @@
     \vcenteredhbox{\icon{#1}{#2}{#5}}  \hspace{2pt} \href{mailto:#4}{\textcolor{#5}{#3}}
 }
 
+% reference
+\newcommand{\reference}[6]{
+    \vcenteredhbox{\icon{#1}{#2}{#6}}  \hspace{2pt} \href{mailto:#5}{\textcolor{#6}{#3} \\ \hspace*{22pt} \textcolor{#6}{#4}}
+}
+
 \usepackage{paracol}
 \usepackage[a4paper]{geometry}
 \geometry{top=1cm, bottom=1cm, left=1cm, right=1cm}
@@ -157,4 +162,3 @@
 \end{paracol}
 
 \end{document}
-
